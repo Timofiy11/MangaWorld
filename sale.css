@@ -1,0 +1,84 @@
+body{
+    margin:0;
+    background:#0d0d0d;
+    color:white;
+    font-family:Arial;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    padding:10px 30px;
+    background:#1a1a1a;
+}
+
+nav{
+    background:#2a2a2a;
+    padding:10px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-right:20px;
+}
+
+.sale-banner{
+    background-color: #202020;
+    width:85%;
+    margin:30px auto;
+    border-radius: 5px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+    box-shadow: 4, 4, 0 ;
+}
+
+.sale-banner img{
+    width:120px;
+}
+
+.sale-banner h1{
+    font-size:80px;
+}
+
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:30px;
+    padding:20px;
+}
+
+.card{
+    background:#1a1a1a;
+    width:170px;
+    padding:15px;
+    text-align:center;
+    border-radius:10px;
+}
+
+.card img{
+    width:100px;
+    height:150px;
+}
+
+footer{
+    background:#1a1a1a;
+    padding:20px;
+    margin-top:30px;
+}
+
+.horimiya15{
+    border-radius: 5;
+    box-shadow: rgba(4, 4, 0)
+}
+
+@media(max-width: 768px){
+   
+    .sale-banner h1{
+        font-size: 28px;
+    }
+    
+}
